@@ -28,7 +28,7 @@ body {
   box-shadow:
     0 24px 60px rgba(0, 0, 0, 0.35),
     inset 0 1px 0 rgba(255, 255, 255, 0.03);
-  max-width: 980px;
+  max-width: 680px;
   width: 100%;
 }
 
@@ -40,6 +40,7 @@ img {
 .foto-perfil img {
   border-radius: 18px;
   display: block;
+  margin: 0 auto;
   border: 1px solid rgba(148, 163, 184, 0.2);
   box-shadow: 0 18px 35px rgba(0, 0, 0, 0.3);
 }
@@ -57,6 +58,7 @@ h3 {
 h2 {
   font-size: clamp(2rem, 3vw, 2.6rem);
   margin-bottom: 0.6rem;
+  text-align: center;
 }
 
 h3 {
