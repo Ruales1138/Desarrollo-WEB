@@ -1,0 +1,35 @@
+/* CSS super simple, estilo "niño" */
+*{box-sizing:border-box}
+body{font-family:Arial, Helvetica, sans-serif;background:#fff;margin:0;padding:18px;color:#111}
+.perfil{max-width:760px;margin:12px auto}
+.tarjeta{background:#fff7cc;border:3px dashed #ff6b6b;padding:12px;border-radius:6px}
+.foto-perfil img{width:200px;border:3px solid #ff6b6b;display:block;margin-bottom:10px}
+h2{color:#ff6b6b;font-size:28px;margin:0 0 8px}
+h3{color:#ff8c42;font-size:18px;margin:12px 0 6px}
+p, li, td{font-size:16px;color:#333}
+ul{padding-left:20px}
+table{width:100%;border-collapse:collapse;margin-top:8px}
+table td{padding:6px}
+.contact-badge{display:inline-block;padding:6px 10px;background:#ffdada;color:#b30000;border-radius:999px;text-decoration:none;font-weight:bold}
+a img{vertical-align:middle}
+
+/* centrar en pantallas pequeñas */
+@media(max-width:600px){
+  .foto-perfil img{width:150px;margin-left:auto;margin-right:auto}
+  .tarjeta{padding:10px}
+}
+
+/* Compatibilidad con la estructura de html-intro/index.html */
+.perfil{max-width:var(--max-width);margin:24px auto;padding:20px}
+.tarjeta{background:var(--card);padding:18px;border-radius:8px;box-shadow:0 1px 2px rgba(15,23,42,0.04)}
+.tarjeta section{max-width:720px;margin:0 auto}
+.tarjeta h2{margin-top:0;font-size:1.4rem}
+.tarjeta h3{font-size:1.05rem;margin-bottom:6px}
+.foto-perfil{display:block;margin:12px 0}
+.foto-perfil img{width:100%;max-width:300px;border-radius:8px;object-fit:cover;display:block}
+
+/* Ajustes visuales para listas y tablas en la otra plantilla */
+ul{margin:8px 0;padding-left:1.2rem}
+table{width:100%;border-collapse:collapse;margin-top:8px}
+table td{padding:6px 8px}
+
