@@ -1,20 +1,18 @@
-/* Estilos escritos a mano — comentarios en español */
+
 *{box-sizing:border-box}
 
-/* cuerpo y fondo */
 html, body {
   height:100%;
 }
 body{
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif; /* fuente simple */
+  font-family: Arial, Helvetica, sans-serif; 
   color: #0b1220;
-  background: #f4f9ff; /* tono suave */
+  background: #f4f9ff; 
   -webkit-font-smoothing: antialiased;
 }
 
-/* contenedor principal */
 .perfil{
   min-height: 100vh;
   display: flex;
@@ -23,7 +21,6 @@ body{
   padding: 48px 20px;
 }
 
-/* tarjeta blanca con sombra */
 .tarjeta{
   background: #fff;
   border-radius: 16px;
@@ -33,11 +30,9 @@ body{
   display: flex;
   gap: 28px;
   align-items: flex-start;
-  /* sombra discreta */
   box-shadow: 0 10px 25px rgba(2,6,23,0.06);
 }
 
-/* foto centrada y redonda */
 .foto-perfil img{
   width: 220px;
   height: 220px;
