@@ -1,81 +1,68 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Perfil</title>
-    <link rel="stylesheet" href="assets/styles/archivos-ia.css" />
-  </head>
-  <body>
-    <div class="perfil">
-      <div class="tarjeta">
-        <section>
-          <h2>David Ruales</h2>
-          <div class="foto-perfil">
-            <img src="../perfil.jpeg" alt="Foto de perfil" width="300" />
-          </div>
-          <p>
-            Soy estudiante de Ingeniería de Sistemas en la Universidad de Medellín. Me gusta
-            construir soluciones claras y fáciles de mantener.
-          </p>
-          <p>
-            Me llevo bien trabajando en equipo y me interesa aprender nuevas herramientas
-            para mejorar cómo hacemos las cosas.
-          </p>
-          <p>
-            Disfruto el desarrollo web (tanto frontend como backend) y sigo formándome
-            continuamente para aportar en proyectos reales.
-          </p>
-
-          <h3>Experiencia laboral</h3>
-          <ul>
-            <li>
-              He contribuido a pequeñas páginas familiares aplicando
-              funcionalidades con un backend mejor estructurado y realizando
-              componentes de frontend.
-            </li>
-            <li>
-              Me encargo de la logística de eventos
-            </li>
-          </ul>
-
-          <h3>Educación</h3>
-          <table>
-            <tr>
-              <td>Lenguajes</td>
-              <td>Frameworks</td>
-              <td>Bases de datos</td>
-            </tr>
-            <tr>
-              <td><img src="https://skillicons.dev/icons?i=py,js" /></td>
-              <td><img src="https://skillicons.dev/icons?i=react,vuejs" /></td>
-              <td><img src="https://skillicons.dev/icons?i=postgresql" /></td>
-            </tr>
-          </table>
-
-          <h3>Certificaciones</h3>
-          <ol>
-            <li>
-              <p>AWS Well-Architected Foundations</p>
-              <p>AWS Training & Certification | Abril 2026</p>
-            </li>
-          </ol>
-
-          <h3>Contactos</h3>
-          <p>
-            <strong>Correo electronico:</strong><em> hruales1138@gmail.com</em>
-          </p>
-          <p>
-            <strong>Numero de contacto:</strong><em> 3245649327</em>
-          </p>
-
-          <h3>Redes sociales</h3>
-          <a href="mailto:hruales1138@gmail.com"
-            ><img src="https://skillicons.dev/icons?i=gmail"
-          /></a>
-          <p style="margin-top:10px;color:#475569;font-size:.9rem">Hecho por David — 2026</p>
-        </section>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hoja de vida — Tu Nombre</title>
+  <link rel="stylesheet" href="assets/styles/archivos-ia.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header card">
+      <div class="profile-photo">
+        <img src="https://via.placeholder.com/300" alt="Foto de perfil — Tu Nombre">
       </div>
-    </div>
-  </body>
+      <div class="header-info">
+        <h1>Tu Nombre</h1>
+        <p>Estudiante de Sistemas — Desarrollador web en formación</p>
+        <div class="contact-list">
+          <a class="contact-badge" href="mailto:tu@correo.com">tu@correo.com</a>
+          <a class="contact-badge" href="tel:+521234567890">+52 123 456 7890</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <aside class="card">
+        <h2>Perfil</h2>
+        <p>Breve resumen profesional: motivado, con interés en frontend, HTML, CSS y JavaScript.</p>
+
+        <h2>Educación</h2>
+        <ul class="clean">
+          <li>Licenciatura en Sistemas — Universidad — 2021 — Present.</li>
+        </ul>
+
+        <h2>Certificaciones</h2>
+        <ul class="clean">
+          <li>Curso de HTML y CSS — Plataforma X — 2024</li>
+        </ul>
+
+        <h2>Redes</h2>
+        <div class="social-list">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </aside>
+
+      <section>
+        <article class="card">
+          <h2>Experiencia Laboral</h2>
+          <div class="job">
+            <h3>Pasantía / Proyecto — Empresa X</h3>
+            <div class="meta">Jun 2023 — Ago 2023</div>
+            <p>Descripción breve de tareas y tecnologías utilizadas (HTML, CSS, JS).</p>
+          </div>
+
+          <h2>Contacto</h2>
+          <p>Correo: tu@correo.com</p>
+          <p>Celular: +52 123 456 7890</p>
+
+        </article>
+      </section>
+
+    </main>
+
+    <footer style="text-align:center;margin-top:16px;color:#6b7280">Documento generado como plantilla de Hoja de Vida.</footer>
+  </div>
+</body>
 </html>
