@@ -1,25 +1,5 @@
-import { CabinCard } from './src/components/CabinCard';
-import type { Cabin } from './src/components/CabinCard';
-
-const SAMPLE_CABINS: Cabin[] = [
-  {
-    id: '1',
-    nombre: 'Cabaña Alpina El Refugio',
-    ubicacion: 'Guatavita, Cundinamarca',
-    precio: 280000,
-    capacidad: 4,
-    comodidades: ['Jacuzzi privado', 'Malla catamarán', 'Zona de fogata', 'Wifi high-speed'],
-    clima: 'Frío (14°C)',
-    calificacion: 4.9,
-    fotos: [
-      'https://images.unsplash.com/photo-1587061949409-02df41d5e562',
-      'https://images.unsplash.com/photo-1510798831971-661eb04b3739',
-    ],
-    videos: ['https://example.com/video.mp4'],
-    politicaCancelacion: 'Cancelación gratuita hasta 48h antes',
-    categorias: ['Glamping', 'Romántica'],
-  },
-];
+import { CabinCard } from './src/components/CabinCard2';
+import { CABINS } from './src/data/cabañas';
 
 export default function HomePage() {
   return (
@@ -33,8 +13,8 @@ export default function HomePage() {
           <p className="max-w-xs text-sm leading-relaxed text-[#647364]">Cabañas elegidas para descansar lento, despertar con calma y volver a la naturaleza.</p>
         </div>
       </header>
-      <div className="mx-auto flex max-w-7xl justify-center">
-        {SAMPLE_CABINS.map((cabin) => (
+      <div className="mx-auto flex max-w-7xl flex-wrap justify-center gap-6">
+        {CABINS.map((cabin) => (
           <div key={cabin.id} className="w-full max-w-md">
             <CabinCard cabin={cabin} />
           </div>
